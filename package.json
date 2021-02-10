@@ -1,0 +1,50 @@
+{
+  "name": "todo_app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/datetimepicker": "^3.0.9",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/push-notification-ios": "^1.8.0",
+    "@react-navigation/native": "^5.9.2",
+    "@react-navigation/stack": "^5.14.2",
+    "axios": "^0.21.1",
+    "md5": "^2.3.0",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-24h-timepicker": "^1.1.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-image-gallery": "^2.1.5",
+    "react-native-material-kit": "^0.6.0-beta.1",
+    "react-native-modal-datetime-picker": "^9.1.0",
+    "react-native-paper": "^4.7.1",
+    "react-native-push-notification": "^7.2.0",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.17.1",
+    "react-native-textinput-effects": "^0.6.1",
+    "react-native-typography": "^1.4.1",
+    "react-native-vector-icons": "^8.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.10",
+    "@babel/runtime": "7.12.5",
+    "@react-native-community/eslint-config": "1.1.0",
+    "babel-jest": "25.5.1",
+    "eslint": "6.8.0",
+    "jest": "25.5.4",
+    "metro-react-native-babel-preset": "0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
